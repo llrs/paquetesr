@@ -1,0 +1,104 @@
+kbd {
+    padding: .1em .6em;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 .1em;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.4;
+    white-space: nowrap
+}
+
+th {background-color: #ffffff; font-weight: bold; }
+tr {background-color: #ffffff; }
+
+.tip-submission {
+  position: relative;
+  border: solid 1px #000000;
+  border-radius: 25px;
+  background-color: #ecf4ec;
+  margin: 5px;
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 95%;
+  height: 90%;  
+}
+
+.center2 {
+  position: relative;
+  top: 50%;
+  -ms-transform.translateY -50%;
+  transform.translateY -50%;
+}
+
+div.my-footer {
+    /* background-color: #050045; */
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+a {
+  color: blue;
+}
+
+div.my-footer span {
+  font-size: 5pt;
+  /* color: #F7F8FA; */
+  position: absolute;
+  left: 15px;
+  bottom: 2.5%;
+}
+
+div.my-footer > a {
+  font-size: 10pt;
+  bottom: 2.5%;
+}
+
+ul {
+ position: relative; 
+}
+
+.center > ul {
+  position: relative;
+}
+
+
+.highlight-last-item > ul > li,
+.highlight-last-item > ol > li {
+  opacity: 0.5;
+}
+.highlight-last-item > ul > li:last-of-type,
+.highlight-last-item > ol > li:last-of-type {
+  opacity: 1;
+}
+
+.demo > li {
+  color: gray;
+}
+.demo > li:last-of-type {
+  color: purple;
+  font-weight: bold;
+}
+
+.bold-last-item > ul > li:last-of-type,
+.bold-last-item > ol > li:last-of-type {
+  font-weight: bold;
+}
+
+.bold-last-item > p {
+  font-weight: normal;
+}
+
+.minor {
+  size: -1
+}
